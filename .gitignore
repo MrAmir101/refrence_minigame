@@ -1,0 +1,67 @@
+# ---------------------------------------------------
+# Unity .gitignore
+# Place at the root of your Unity project, next to Assets/
+# File must be named exactly:  .gitignore
+# ---------------------------------------------------
+
+# Unity generated folders — never commit these.
+# They are rebuilt automatically and can be many GB.
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Asset Store downloads
+[Aa]ssets/AssetStoreTools*
+
+# Auto-generated Visual Studio / Rider / VS Code files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D generated meta files for ignored folders
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D build and crash reports
+sysinfo.txt
+crashlytics-build.properties
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Addressables local build output
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Ss]treaming[Aa]ssets/aa.meta
+/[Ss]treaming[Aa]ssets/aa/*
+
+# Never commit secrets
+*.token
+*.key
+secrets.*
